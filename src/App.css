@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: antiquewhite;
 }
 
 .App-logo {
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  font-size: xx-large;
+  height: 50px;
+  width: 50px;
+}
+h1 {
+  color: rgb(1, 1, 27);
+  background-color: rgb(95, 94, 92);
+  height: 100px;
+  text-align: center;
+}
+body {
+  background-color: antiquewhite;
+}
+.display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
